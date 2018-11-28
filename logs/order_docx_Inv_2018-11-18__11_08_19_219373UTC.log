@@ -1,0 +1,4 @@
+INFO :  File: C:/Users/Pallavi A/projects/file_processing/resource/order.docx AT - 2018-11-18 16:38:19,221
+INFO :  Data extracted for :Invoice_Date,Address,Name,Total_Amount,Invoice_Number,File_Name,DocNum_Inv AT - 2018-11-18 16:38:19,301
+INFO :  Extracted values: [None, 'Shreya g airody', None, '200.00', '40593956700587567', 'order.docx', 199] AT - 2018-11-18 16:38:19,301
+INFO :  Processing completed AT - 2018-11-18 16:38:19,302

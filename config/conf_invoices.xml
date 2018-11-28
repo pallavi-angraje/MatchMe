@@ -1,0 +1,19 @@
+<config>
+    <databse>
+        <host>localhost</host>
+        <user>root</user>
+        <passwd></passwd>
+        <db>invoice</db>
+    </databse>
+    <table>
+        <data-table>invoice_data</data-table>
+        <master-table>invoice_master</master-table>
+    </table>
+    <resource>
+        <filepath>C:/Users/Pallavi A/projects/file_processing/resource/</filepath>
+    </resource>
+    <data>
+        <!--<fields>Items Ordered,Order Total,Delivery Option,Amazon.in order number</fields>-->
+        <fields>Invoice Date,Address,Party Name,Total,Invoice Number,Delivery Address,Order Total,Amazon.in order number</fields>
+    </data>
+</config>

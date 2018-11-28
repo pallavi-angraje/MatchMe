@@ -1,0 +1,5 @@
+INFO :  File: C:/Users/Pallavi A/projects/file_processing/resource/Invoice_example1.xlsx AT - 2018-11-18 16:38:18,847
+INFO :  Number of rows :2 AT - 2018-11-18 16:38:18,967
+INFO :  Data extracted for :Invoice_Date,Address,Name,Total_Amount,Invoice_Number,File_Name,DocNum_Inv AT - 2018-11-18 16:38:18,967
+INFO :  Extracted values: [('2018-10-12', 'Embassy tech village Devarabesanahalli Bengaluru, KARNATAKA 560103 India ', 'UVFTSTR', 20000, '29-WEE INV/50487578', 'Invoice_example1.xlsx', 197), ('2018-05-02', 'Embassy tech village Devarabesanahalli Bengaluru, KARNATAKA 560103 India ', 'RSFDSNF', 500, '45EF- INV/35464', 'Invoice_example1.xlsx', 197)] AT - 2018-11-18 16:38:18,967
+INFO :  Processing completed AT - 2018-11-18 16:38:19,011

@@ -1,0 +1,5 @@
+INFO :  File: C:/Users/Pallavi A/projects/file_processing/resource/Purchase.pdf AT - 2018-11-18 16:38:19,376
+ERROR :  Found ambiguity between ['Total Invoice value (in figure)', 'Total Invoice value (in words)'] while searching for :Total AT - 2018-11-18 16:38:22,153
+INFO :  Data extracted for :Invoice_Date,Address,Name,Invoice_Number,File_Name,DocNum_Inv AT - 2018-11-18 16:38:22,234
+INFO :  Extracted values: [datetime.date(2018, 10, 11), '#22,library street, dodda kannelli dinne,near AET college, sarjapur road banglore', 'D SANTHOSHK DHARMAMOORTHY', '29-KARINV/427030', 'Purchase.pdf', 200] AT - 2018-11-18 16:38:22,234
+INFO :  Processing completed AT - 2018-11-18 16:38:22,234
