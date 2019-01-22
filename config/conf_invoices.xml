@@ -6,14 +6,19 @@
         <db>invoice</db>
     </databse>
     <table>
-        <data-table>invoice_data</data-table>
-        <master-table>invoice_master</master-table>
+        <invoice-data-table>invoice_data</invoice-data-table>
+        <invoice-master-table>invoice_master</invoice-master-table>
+        <payment-master-table>payment_master</payment-master-table>
+        <payment-data-table>payment_data</payment-data-table>
+        <matched-data-table>matched_transactions</matched-data-table>
+
     </table>
     <resource>
         <filepath>C:/Users/Pallavi A/projects/file_processing/resource/</filepath>
     </resource>
     <data>
-        <!--<fields>Items Ordered,Order Total,Delivery Option,Amazon.in order number</fields>-->
-        <fields>Invoice Date,Address,Party Name,Total,Invoice Number,Delivery Address,Order Total,Amazon.in order number</fields>
+        <fields>Payment Date,Sort Code,Account No,Bank Name,Date of Transaction,Amount</fields>
+        <!--<fields>Items Ordered,Order Total,order number, Invoice Date</fields>-->
+        <!--<fields>BALANCE DUE,Invoice Date,Address,Party Name,Total,Invoice Number,Delivery Address,Order Total,Amazon.in order number</fields>-->
     </data>
 </config>

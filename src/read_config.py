@@ -30,10 +30,19 @@ def get_db_config(handler):
     return host, user, db, passwd
 
 
-def get_tables(handler):
-    invoice_data_storage_table = handler.find_all('data-table')[0].get_text()
-    invoice_master = handler.find_all('master-table')[0].get_text()
+def get_invoice_tables(handler):
+    invoice_data_storage_table = handler.find_all('invoice-data-table')[0].get_text()
+    invoice_master = handler.find_all('invoice-master-table')[0].get_text()
     return invoice_data_storage_table, invoice_master
 
+
+def get_payment_tables(handler):
+    payment_master = handler.find_all('payment-master-table')[0].get_text()
+    payment_data_storage_table = handler.find_all('payment-data-table')[0].get_text()
+    return payment_data_storage_table, payment_master
+
+def get_matched_data_table(handler):
+    matched_data_table = handler.find_all('matched-data-table')[0].get_text()
+    return matched_data_table
 
 
